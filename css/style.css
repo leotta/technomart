@@ -1,0 +1,45 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: PT Sans, Arial, Verdana;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 400;
+    min-width: 940px;
+}
+
+.up-navigation {
+  background: #293449;
+  outline: red;
+}
+
+.container-up-navigation{
+  width: 940px;
+  min-height: 42px;
+  margin: 0 auto;
+}
+
+.container-logo{
+  display: inline-block;
+  color: white;
+  background: #ee3643;
+  border-bottom: 5px solid #b52933;
+}
+
+.nav__list{
+
+}
+
+.nav__item{
+  list-style: none;
+}
+
+.nav__link{
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
